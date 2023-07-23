@@ -14,12 +14,18 @@ setInterval(() => {
   let primero = totalTime % 10;
   let segundo = Math.floor(totalTime / 10) % 10;
   let tercero = Math.floor(totalTime / 100) % 10;
+  let cuarto = Math.floor(totalTime / 1000) % 10;
+  let quinto = Math.floor(totalTime / 10000) % 10;
+  let sexto = Math.floor(totalTime / 100000) % 10;
 
     
     root.render(<App 
       primero={primero} 
       segundo={segundo}
       tercero={tercero}
+      cuarto={cuarto}
+      quinto={quinto}
+      sexto={sexto}
     />);
   }, 1000)
 
