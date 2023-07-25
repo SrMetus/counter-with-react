@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    border: 1px solid white;
+    padding: 6px;
+    margin-top: 3px;
+    border-radius: 5px;
+    box-shadow: 10px solid rgb(255, 255, 255);
+}
