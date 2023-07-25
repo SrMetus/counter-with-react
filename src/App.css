@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 3px;
 }
@@ -14,9 +14,13 @@
 }
 
 h1 {
-    border: 1px solid white;
-    padding: 6px;
-    margin-top: 3px;
+    border: 1px solid gray;
+   /* background-color: ;*/
+    padding: 5px;
+    margin: 20px;
     border-radius: 5px;
-    box-shadow: 10px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 70px;
+    text-align: center;
+    font-size: 60px;
 }
